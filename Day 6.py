@@ -7,13 +7,15 @@ def read_ages(file):
     return fish
 
 def part1(fish, days=80):
-    for day in days:
+    for day in range(days):
+        print (f"Day: {day}, bytes: {fish.nbytes}")
         fish -= 1
         new_fish = np.count_nonzero(fish == -1)
         fish[fish == -1] = 6
         fish = np.append(fish, np.full(new_fish, 8))
     return fish.shape[0]
 
+# Histogram solution initially inspired by @adeak's solution
 def fish_spawning(fish, days=80):
     for _ in range(days):
         spawners = fish[0]
