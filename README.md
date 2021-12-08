@@ -2,6 +2,9 @@ This repository contains the solutions to my first advent of code.
 
 My goal for this month is simply to complete each day in less than an hour of total work time.
 
+<b>12.07.21 Log</b><br>
+I was able to complete today's challenge relatively quickly and without too much difficutly. Unfortunately, my solution to part2 isn't exactly *quick*... It took about 23 seconds to idneitfy the optimal convergence location. If I had more time, I might try to sit and consider a more optimized solution, but I'm happy with just solving it for today! I'll definitely compare my solution to others to see what I could've done better.
+
 <b>12.06.21 Log</b><br>
 Part1 was easy... too easy... yep! Part2 came in as a zinger. Today we had to model exponential growth of lanternfish. For part1, we had to measure 80 days of growth. To do this I created an array where each element represented a fish and its value represented it's breeding 'timer'. When the timer hit 0, a new element was added to the array and the timer was reset. See the problem? This solution is highly limited to small day ranges of growth. For Part2, we're asked to measure growth out to 256 days... my initial solution could never solve this time range!
 
