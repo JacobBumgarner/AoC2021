@@ -2,6 +2,9 @@ This repository contains the solutions to my first advent of code.
 
 My goal for this month is simply to complete each day in less than an hour of total work time.
 
+<b>12.08.21 Log</b><br>
+There's nothing clean about my solution to Day 8. I wish I could say that I developed some elegant code cracking solution, but I decided to just brute force it using sets created between the different numbers. Just glad I was able to solve it!
+
 <b>12.07.21 Log</b><br>
 I was able to complete today's challenge relatively quickly and without too much difficutly. Unfortunately, my solution to part2 isn't exactly *quick*... It took about 23 seconds to idneitfy the optimal convergence location. If I had more time, I might try to sit and consider a more optimized solution, but I'm happy with just solving it for today! I'll definitely compare my solution to others to see what I could've done better.
 
