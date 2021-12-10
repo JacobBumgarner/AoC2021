@@ -2,6 +2,9 @@ This repository contains the solutions to my first advent of code.
 
 My goal for this month is simply to complete each day in less than an hour of total work time.
 
+<b>12.09.21 Log</b><br>
+Image processing! Woot!
+
 <b>12.08.21 Log</b><br>
 There's nothing clean about my solution to Day 8. I wish I could say that I developed some elegant code cracking solution, but I decided to just brute force it using sets created between the different numbers. Just glad I was able to solve it!
 
