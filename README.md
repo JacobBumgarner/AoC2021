@@ -2,8 +2,14 @@ This repository contains the solutions to my first advent of code.
 
 My goal for this month is simply to complete each day in less than an hour of total work time.
 
+
+<b><strike>12.09.21</strike> 02.22.22 Log</b><br>
+After a long couple of months of grinding out code for another one of my projects, I decided that I wanted to come back to these challenges. The 10th day was pretty interesting. Once I figured out exactly what the rules were, it was relatively straight forward to solve. Figuring the rules out took me much longer than I would've wished, however. I don't think that it was clearly described that any chunks inside of main chunks must be complete; instead, this had to be figured out intuitively. 
+
+I ended up iteratively removing complete chunk markers until the line wasn't changing anymore. From here, if there was an absence of any closers, the line was defined as incomplete. This line was then reversed and tallied as instructed. If there was a closer present, I identified the first one and added it to the tally as instructed.
+
 <b>12.09.21 Log</b><br>
-Image processing! Woot!
+Image processing!
 
 <b>12.08.21 Log</b><br>
 There's nothing clean about my solution to Day 8. I wish I could say that I developed some elegant code cracking solution, but I decided to just brute force it using sets created between the different numbers. Just glad I was able to solve it!
