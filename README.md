@@ -1,7 +1,10 @@
 This repository contains the solutions to my first advent of code. 
 
-My goal for this month is simply to complete each day in less than an hour of total work time.
+My goal for this project is to simply complete each day's puzzle. I'm less interested in speed of completion and more interested in taking the time to understand the puzzle and implement a solid solution
 
+
+<b><strike>12.11.21</strike> 02.28.22 Log</b><br>
+This puzzle didn't present too much difficulty. I solved it using np.argwhere to identify the flashing points and slicing to update the N8(p) elements.
 
 <b><strike>12.10.21</strike> 02.22.22 Log</b><br>
 After a long couple of months of grinding out code for another one of my projects, I decided that I wanted to come back to these challenges. The 10th day was pretty interesting. Once I figured out exactly what the rules were, it was relatively straight forward to solve. Figuring the rules out took me much longer than I would've wished, however. I don't think that it was clearly described that any chunks inside of main chunks must be complete; instead, this had to be figured out intuitively. 
