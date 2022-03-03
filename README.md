@@ -2,6 +2,11 @@ This repository contains the solutions to my first advent of code.
 
 My goal for this project is to simply complete each day's puzzle. I'm less interested in speed of completion and more interested in taking the time to understand the puzzle and implement a solid solution
 
+<b><strike>12.12.21</strike> 03.02.22 Log</b><br>
+Today's puzzle was really fun for me to solve! We were given a map with individual path points and connections between those points. Some of these points could only be visited once or twice, and others could be visited infinitely. We then had to find the maximal number of paths that reached from the start to the end of the path that followed the visitation rules.
+
+Since I am quite familiar with graph theory thanks to VesselVio, I decided to create my own graph classes. The first class was my main graph class (the Cave), and the second class was for the vertices (the Nodes). Then after creating these classes, I made a simple recursive search function to find the maximal number of paths. Quite fun!
+
 
 <b><strike>12.11.21</strike> 02.28.22 Log</b><br>
 This puzzle didn't present too much difficulty. I solved it using np.argwhere to identify the flashing points and slicing to update the N8(p) elements.
